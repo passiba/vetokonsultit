@@ -1,0 +1,5 @@
+ALTER TABLE vetokonsultit.jasen DROP FOREIGN KEY FK_jasen_TYYPPIID
+ALTER TABLE vetokonsultit.jasen DROP FOREIGN KEY FK_jasen_LUOTTAMUSTOIMIID
+DROP TABLE vetokonsultit.luottamustoimi
+DROP TABLE vetokonsultit.jasen
+DROP TABLE vetokonsultit.jasentyyppi
